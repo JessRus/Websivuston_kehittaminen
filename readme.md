@@ -13,8 +13,8 @@
     <h1>Jessica Rusila</h1>
     <p>Olen 20 vuotta ja valmistuin lukiosta viime vuonna.</p>
     <p>Olen innokas oppimaan miten tehdään websivustoja!!</p>
-    <img src="images/Kissa.jpg" alt="Rakas kissani"
-    width="250" height= "300">
+    <img src="images/Kissa.jpg" alt="Rakas kissani">
+
     <p> tämä on kissa</p>
 
 
