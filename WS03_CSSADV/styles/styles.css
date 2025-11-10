@@ -1,5 +1,6 @@
 p {
       color: #476142;
+      font-family: "comic sans", monospace;
     }
     
     body {
@@ -12,16 +13,24 @@ p {
     h2{
       color:green
        }
+    h3{
+        color: green
+    }
     li{
       color:#476142;
+      font-family:"comic sans",monospace;
        }
- div {
-      padding: 20px;
-      margin: 10px;
-    }
+ .content-box {
+  padding:20px;
+  margin: 10px;
+  background-color: #EAEBCE;
+  border: 2px solid #dcddc3;
+  }
+
     table {
       width: 100%;
       border-collapse: collapse;
+      font-family: "comic sans", monospace;
     }
     
     th, td {
@@ -33,20 +42,22 @@ p {
     th {
       background-color:#476142;
     }
-
-    form {
+form {
       display: flex;
       flex-direction: column;
-      gap: 10px;
+      gap: 5px;
     }
     
     label {
       font-weight: bold;
+      color: #476142
     }
-    
+    :placeholder-shown{
+        font-family:"comic sans", monospace;
+        }
     input[type="text"], input[type="email"] {
-      padding: 8px;
-      border: 1px solid #ddd;
+      padding: 10px;
+      border: 2px solid #EAEBCE;
       border-radius: 4px;
     }
     
@@ -58,13 +69,12 @@ p {
       border-radius: 4px;
       cursor: pointer;
     }
-    
     input[type="submit"]:hover {
       background-color: #45a049;
     } 
-
     .transition-button {
-        background-color: lightblue;
+        background-color: lightcoral;
+        color: white;
         padding: 10px 20px;
         border: none;
         cursor: pointer;
@@ -72,21 +82,65 @@ p {
       }
       
       .transition-button:hover {
-        background-color: lightcoral;
+        background-color: #4CAF50;
       }
-      .animation-box {
-        width: 50px;
-        height: 50px;
-        background-color: lightgreen;
+      .animation-box{
+        width: 150px;
+        height: 150px;
+        background-image: url('../images/psykokissa.jpg');
+        background-size: cover;
         position: relative;
-        animation: move 2s infinite alternate;
+        animation: move 6s infinite alternate;
       }
       
       @keyframes move {
         from {
-          left: 0;
+          left: 0px;
         }
         to {
-          left: 1000px;
+          left: 1120px;
         }
       }
+      .pseudo-list li:nth-child(odd) {
+        background-color: #BDF0B6;
+      }
+      
+      .pseudo-list li:nth-child(even) {
+        background-color: #D7FAD2;
+      }
+      .filter-image {
+        filter: grayscale(0%);
+        transition: filter 0.3s ease;
+      }
+      
+      .filter-image:hover {
+        filter: grayscale(100%);
+      }
+      .quote {
+        position: relative;
+        padding-left: 40px;
+        font-style: italic;
+        font-size: 40px
+      }
+      
+      .quote::before {
+        content: '“';
+        font-size: 50px;
+        margin-right: 4px;
+        color: green;
+         }
+    .quote::after {
+        content:'”';
+        font-size: 50px;
+        margin-left: 4px;
+        color:green;
+      }
+      footer {
+        position: relative;
+        padding-left: 130px;
+        top: -50px;
+        font-size: 20px;
+        font-style: italic;
+        margin-top:8px;
+          }
+      

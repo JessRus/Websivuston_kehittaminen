@@ -12,13 +12,19 @@ p {
     h2{
       color:green
        }
+    h3{
+        color: green
+    }
     li{
       color:#476142;
        }
- div {
-      padding: 20px;
-      margin: 10px;
-    }
+ .content-box {
+  padding: 20px;
+  margin: 10px;
+  background-color: #EAEBCE;
+  border: 2px solid #dcddc3;
+  }
+
     table {
       width: 100%;
       border-collapse: collapse;
@@ -57,7 +63,3 @@ form {
       border-radius: 4px;
       cursor: pointer;
     }
-    
-    input[type="submit"]:hover {
-      background-color: #45a049;
-    } 
