@@ -77,6 +77,7 @@ form {
         color: white;
         padding: 10px 20px;
         border: none;
+        border-radius: 4px;
         cursor: pointer;
         transition: background-color 0.3s ease;
       }
@@ -173,12 +174,12 @@ form {
   
   @media (max-width: 600px) {
     .responsive-box {
-      background-color: lightcoral;
+      background-color: lightgreen;
     }
   }
   
   @media (min-width: 601px) {
     .responsive-box {
-      background-color: lightseagreen;
+      background-color: rgb(94, 172, 94);
     }
   }
