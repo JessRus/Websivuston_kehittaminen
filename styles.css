@@ -87,7 +87,7 @@ form {
       .animation-box{
         width: 150px;
         height: 150px;
-        background-image: url('../psykokissa.jpg');
+        background-image: url('./psykokissa.jpg');
         background-size: cover;
         position: relative;
         animation: move 6s infinite alternate;
