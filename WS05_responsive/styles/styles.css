@@ -215,7 +215,7 @@ form {
     }
 
       .responsive-nav .nav-list {
-      display: flex;
+      display: unordered-list;
       list-style: none;
     }
 

@@ -77,6 +77,7 @@ form {
         color: white;
         padding: 10px 20px;
         border: none;
+        border-radius: 4px;
         cursor: pointer;
         transition: background-color 0.3s ease;
       }
@@ -135,7 +136,7 @@ form {
         margin-left: 4px;
         color:green;
       }
-      footer {
+      .main-footer {
         position: relative;
         padding-left: 130px;
         top: -50px;
@@ -143,3 +144,49 @@ form {
         font-style: italic;
         margin-top:8px;
           }
+
+    .flex-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .box {
+    background-color: #6C9463;
+    padding: 40px;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    font-family:"comic sans", monospace;
+
+  }
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+  }
+  
+  .grid-item {
+    background-color: lightgreen;
+    padding: 20px;
+    text-align: center;
+    font-family:"comic sans", monospace;
+  }
+  .responsive-box {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  @media (max-width: 600px) {
+    .responsive-box {
+      background-color: lightcoral;
+      font-family: "comic sans", monospace;
+    }
+  }
+  
+  @media (min-width: 601px) {
+    .responsive-box {
+      background-color: rgb(94, 172, 94);
+      font-family: "comic sans", monospace;
+    }
+  }

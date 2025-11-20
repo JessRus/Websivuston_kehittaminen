@@ -1,22 +1,37 @@
 <!DOCTYPE html>
 <html lang="fi">
 <head>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="/styles.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ensimmäinen HTML sivuni</title>
 </head>
 <body>
-    <h1 style="color: green;">WS03_CSSADV</h1>
+    <h1 style="color: green;">WS04_Layout</h1>
+    <header>  
+    <nav>
+        <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    </header>
 <hr>
+
 <style>
     h1 {
     color:green;
      }
 </style>
+<main>
+    <section id="jessica">
     <h1>Jessica Rusila</h1>
     <p>Olen 20 vuotta ja valmistuin lukiosta viime vuonna.</p>
     <p>Olen innokas oppimaan miten tehdään websivustoja!!</p>
+    </section>
+    </main>
+
     <img src="Kissa.jpg" alt="Rakas kissani" alt="Sample Image" class="filter-image" 
     width="250" height= "300">
     <p> tämä on kissa</p>
@@ -81,7 +96,28 @@
     <blockquote class="quote">
         Four legs good, two legs bad.
       </blockquote>
-       <footer>-my cat (definitely not George Orwell)</footer>
+
+       <footer class="main-footer">-my cat (definitely not George Orwell)</footer>
+
+       <h2>Lempi kirjani!</h2>
+       <div class="flex-container">
+    <div class="box">Top fantasy</div>
+    <div class="box">Top fantasy again</div>
+    <div class="box">Top historical fiction</div>
+      </div>
+    <div class="grid-container">
+    <div class="grid-item">Sword of Kaigen</div>
+    <div class="grid-item">Pienen Hauen Pyydystys</div>
+    <div class="grid-item">Thousand Splendid Suns</div>
+    <div class="grid-item">The Name of the Wind</div>
+    <div class="grid-item">This Is How You Lose the Time War</div>
+    <div class="grid-item">Babel</div>
+  </div>
+  <hr>
+  <div class="responsive-box">Muutappas näytön koota nii väripä muuttuunee!!</div>
+    <footer class="secondary footer">
+    <p>Copyright 2025</p>
+  </footer>
     </form>
     </body>
     </html>
