@@ -7,12 +7,13 @@
     <title>Ensimmäinen HTML sivuni</title>
 </head>
 <body>
-    <h1 style="color: green;">WS04_Layout</h1>
+    <h1 style="color: green;">WS05_Responsive Design</h1>
     <header>  
-    <nav>
-        <ul>
+  <nav class="responsive-nav">
+      <button class="menu-toggle">☰ Menu</button>
+      <ul class="nav-list">
+        <li><a href="#Services">Services</a></li>
         <li><a href="#about">About</a></li>
-        <li><a href="#services">Services</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
@@ -105,6 +106,7 @@
     <div class="box">Top fantasy again</div>
     <div class="box">Top historical fiction</div>
       </div>
+
     <div class="grid-container">
     <div class="grid-item">Sword of Kaigen</div>
     <div class="grid-item">Pienen Hauen Pyydystys</div>
@@ -113,9 +115,23 @@
     <div class="grid-item">This Is How You Lose the Time War</div>
     <div class="grid-item">Babel</div>
   </div>
+
   <hr>
-  <div class="responsive-box">Muutappas näytön koota nii väripä muuttuunee!!</div>
-    <footer class="secondary footer">
+  <div class="media-query-box">Muutappas näytön koota nii väripä muuttuunee!!</div>
+
+  <div class="responsive-container">
+      <div class="column">
+        <h3> before food</h3>
+        <img src="attack.jpg" alt="Responsive Image" class="responsive-image">
+    </div>
+
+      <div class="column">
+        <h3> after food</h3>
+        <img src="suuauki.jpg" alt="Responsive Image" class="responsive-image">
+    </div>
+    </div>
+
+    <footer class="secondary-footer">
     <p>Copyright 2025</p>
   </footer>
     </form>
