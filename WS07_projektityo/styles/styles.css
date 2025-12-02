@@ -1,0 +1,25 @@
+body {
+background-color: #364a69;
+}
+
+.my-navbar {
+background-color: #ebe8cc;
+height:80px;
+}
+
+
+.uniform-carousel .carousel-item img {
+  max-height: 1000px;
+  max-width: 400px;
+  object-fit: contain;
+  display: flex;
+  margin: 0 auto;
+}
+
+.carousel-caption-text {
+    color:aliceblue;
+    font-family: "comic sans", monospace;
+    font-size: 20px;
+ }
+
+

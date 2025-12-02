@@ -136,10 +136,10 @@ form {
         margin-left: 4px;
         color:green;
       }
-      .main-footer {
+      .my-main-footer {
         position: relative;
         padding-left: 130px;
-        top: -50px;
+        top: -30px;
         font-size: 20px;
         font-style: italic;
         margin-top:8px;
@@ -151,13 +151,16 @@ form {
     align-items: center;
   }
   
-  .box {
+  .my-box {
     background-color: #6C9463;
     padding: 40px;
     width: 150px;
     height: 50px;
     text-align: center;
     font-family:"comic sans", monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
   }
   .grid-container {
@@ -232,3 +235,19 @@ form {
         display: block;
       }
     }
+
+
+    .col-md-4 {
+    background-color: #EAEBCE;
+    padding:20px;
+    border: 2px solid #dcddc3;
+        }
+
+    .btn-row {
+    display: flex;
+    gap: 10px;
+    }
+
+    .my-navbar {
+    background-color: #dcddc3;
+     }
