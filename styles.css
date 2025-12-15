@@ -94,7 +94,7 @@ border: 2px solid aliceblue;
 }
 
 body.page3 {
-    background-image: url('../DISDIS.PNG');
+    background-image: url('./DISDIS.PNG');
     background-size: cover;
     background-position: center;
     min-height: 100vh;
